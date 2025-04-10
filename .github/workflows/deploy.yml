@@ -55,7 +55,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://stefanielucky.github.io/summary_journal/
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
